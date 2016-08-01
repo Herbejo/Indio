@@ -1,0 +1,65 @@
+#main {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1080px;
+	background-color: #00aeef;
+}
+#header {
+	width: 900px;
+	height: 300px;
+	float: left;
+	background-color: #fff568;
+}
+#content {
+	width: 700px;
+	height: 705px;
+	background-color: #827b00;
+	float: left;
+}
+#sidebar {
+	width: 200px;
+	height: 705px;
+	background-color: #f26522;
+	float: right;
+}
+#footer {
+	width: 900px;
+	height: 75px;
+	float: left;
+	background-color: #32004b;
+}
+#title {
+	width: 680px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+	background-color: #ec008c;
+}
+#tracks {
+	width: 370px;
+	height: 500px;
+	float: left;
+	background-color: #bd8cbf;
+	margin-left: 10px; 
+}
+#art_bar {
+	width: 300px;
+	height: 410px;
+	float: right;
+	background-color: #ffff00;
+	margin-right: 10px;
+}
+#art {
+	width: 300px;
+	height: 300px;
+	background-color: #007236;
+	float: left;
+}
+#art_caption{
+	width: 300px;
+	height: 100px;
+	background-color: #9e0039;
+	float: left;
+	margin-top: 10px;
+}
