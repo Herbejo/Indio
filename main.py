@@ -42,13 +42,13 @@ def main():
 		if file.endswith(".html"):
 			page = file
 			tags = getTags(page)
-			if len(tags) != 0:
+			while len(tags) != 0:
 				if os.path.isdir(tags[0]):
 					for file in os.listdir(tags[0]):
 						if file.endswith(".md"):
 							content = markdownToHtml(tags[0] + "/" + file)
 							writeTag(page, tags[1], content)
-
+				tags = getTags(page)
 main()
 
 
